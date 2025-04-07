@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en Rust que procesa un archivo CSV con transacciones bancarias. El objetivo es leer el archivo, analizar los datos y generar un reporte con información clave como balance final, transacción más grande y cantidad de transacciones por tipo.
 
+![screenshot](./docs/Screenshot.png)
+
 ---
 
 ## 🚀 Instrucciones de Ejecución
@@ -53,7 +55,7 @@ Además, se manejan errores básicos como:
 transacciones_cli/
 ├── Cargo.toml        # Archivo de configuración de Rust
 ├── data/
-    └── data.csv      # Archivo de prueba con transacciones
+│   └── data.csv      # Archivo de prueba con transacciones
 └── src/
     └── main.rs       # Archivo principal del proyecto
 
